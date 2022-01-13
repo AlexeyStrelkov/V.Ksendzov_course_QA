@@ -1,6 +1,6 @@
 {
   "Summary":"Item not added to cart",
-  "Steps to reproduce":{""
+  "Steps to reproduce":{
     "step 1":"on the product page go to the product card",
     "step 2":"click the 'add to cart' button"
     },
