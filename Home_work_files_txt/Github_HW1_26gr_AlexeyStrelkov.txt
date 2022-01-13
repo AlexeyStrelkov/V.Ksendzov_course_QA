@@ -1,3 +1,5 @@
+Github link https://github.com/AlexeyStrelkov/V.Ksendzov_course_QA
+
 JSON
  4. Создать внешний репозиторий c названием JSON === на github.com нажимаем кнопку "create new repo" или просто "new"
  5. Клонировать репозиторий JSON на локальный компьютер === git clone "ссылка на репозиторий"
