@@ -3,3 +3,5 @@ qwer
 fddv
 556
 QA_check_tests
+autotest_check
+
