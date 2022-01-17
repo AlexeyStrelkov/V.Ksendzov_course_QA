@@ -1,0 +1,104 @@
+Github link https://github.com/AlexeyStrelkov/V.Ksendzov_course_QA
+
+
+1. На локальном репозитории сделать ветки для: Postman, Jmeter, CheckLists, Bug Reports, 
+   SQL, Charles, Mobile testing.
+
+        - git branch название_ветки
+        
+
+2. Запушить все ветки на внешний репозиторий:
+
+        - git push -u origin название_ветки
+        
+   
+3. В ветке Bug Reports сделать текстовый документ со структурой баг репорта:
+
+        - git checkout bug_reports (переходим в нужную ветку)
+        - vim bug_report_stucture.txt  и наполняем файл:
+        
+                1) Bug overview:
+                    - summary
+
+                2) Environment:
+                    - platform
+                    - OS
+                    - browser
+
+                3) Bug details
+                    - steps to reproduce
+                    - expected result
+                    - actual result
+
+                4) Bug tracking:
+                    - severety
+                    - priority
+                    
+
+4. Запушить структуру багрепорта на внешний репозиторий
+
+        - git add bug_report_stucture.txt
+        - git commit -m "комментарий"
+        - git push
+
+
+5. Вмержить ветку Bug Reports в Main
+
+        - git checkout master (возвращаемся в основную ветку)
+        - git merge bug_reports
+
+
+6. Запушить main на внешний репозиторий.
+
+        - git push
+
+
+7. В ветке CheckLists набросать структуру чек листа.
+
+        - git checkout check_lists (переходим в нужную ветку)
+        - vim Email_validation_check_list.txt  и наполняем файл:
+        
+             1)  Empty email field
+             2)  Email in lower case
+             3)  Email in upper case
+             4)  Email with numbers in username
+             5)  Email with numbers in the domain part
+             6)  Email with a dash in the username
+             7)  Email with a dash in the domain part
+             8)  Email with an underscore in the username
+             9)  Email with an underscore in the domain part
+             10) Email with dots in username
+             11) Email with multiple dots in the domain part
+             12) Email without dots in the domain part
+             13) Email length exceeded (>320 characters)
+             14) No @ in email
+             15) Email with spaces in username
+             16) Email with spaces in the domain part
+             17) Email without username
+             18) Email without domain part
+             19) Incorrect first-level domain (allowable 2-6 letters after the dot)
+             20) Email with a Cyrillic domain name (login@домен.рф)
+
+
+8. Запушить структуру на внешний репозиторий
+
+        - git add Email_validation_check_list.txt
+        - git commit -m "комментарий"
+        - git push
+
+
+9. На внешнем репозитории сделать Pull Request ветки CheckLists в main
+
+        - на сайте github появляется предложение сравнить ветки и подтянуть изменения
+          кнопка "compare and pull request", нажимаем ее,
+        - затем нажимаем кнопку "create pull request",
+        - затем "merge pull reguest" и "confirm merge"
+
+
+10. Синхронизировать Внешнюю и Локальную ветки Main:
+        
+        - git checkout master в терминале переходим в основную ветку,
+        - git pull - синхронизируем внешнюю и локальную ветку master.
+        
+        
+        
