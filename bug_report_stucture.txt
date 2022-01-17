@@ -1,0 +1,16 @@
+1) Bug overview:
+    - summary
+
+2) Environment:
+    - platform
+    - OS
+    - browser
+
+3) Bug details
+    - steps to reproduce
+    - expected result
+    - actual result
+    
+4) Bug tracking:
+    - severety
+    - priority
