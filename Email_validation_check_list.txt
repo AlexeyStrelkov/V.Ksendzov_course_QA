@@ -1,0 +1,20 @@
+ 1)  Empty email field
+ 2)  Email in lower case
+ 3)  Email in upper case
+ 4)  Email with numbers in username
+ 5)  Email with numbers in the domain part
+ 6)  Email with a dash in the username
+ 7)  Email with a dash in the domain part
+ 8)  Email with an underscore in the username
+ 9)  Email with an underscore in the domain part
+ 10) Email with dots in username
+ 11) Email with multiple dots in the domain part
+ 12) Email without dots in the domain part
+ 13) Email length exceeded (>320 characters)
+ 14) No @ in email
+ 15) Email with spaces in username
+ 16) Email with spaces in the domain part
+ 17) Email without username
+ 18) Email without domain part
+ 19) Incorrect first-level domain (allowable 2-6 letters after the dot)
+ 20) Email with a Cyrillic domain name (login@домен.рф)
