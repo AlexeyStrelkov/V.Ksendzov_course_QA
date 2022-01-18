@@ -9,7 +9,7 @@ Github link https://github.com/AlexeyStrelkov/V.Ksendzov_course_QA
 
 2. Запушить все ветки на внешний репозиторий:
 
-        - git push -u origin название_ветки
+        - git push --all
         
    
 3. В ветке Bug Reports сделать текстовый документ со структурой баг репорта:
