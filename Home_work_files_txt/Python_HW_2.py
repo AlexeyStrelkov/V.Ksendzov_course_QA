@@ -18,8 +18,14 @@ print(result_sum)
         #     переменную из меньшей по значению.
         # 6.  Вывести result_subtr в консоль.
 
-result_subtr = item_2 - item_1
-print(result_subtr)
+if item_1 > item_2:
+    result_subtr = item_2 - item_1
+    print(result_subtr)
+elif item_1 < item_2:
+    result_subtr = item_1 - item_2
+    print(result_subtr)
+else:
+    print('Переменные равны')
 
         # 7.  Создать переменную result_multi в которой вы умножаете item_1 на item_2.
         # 8.  Вывести result_multi в консоль.
