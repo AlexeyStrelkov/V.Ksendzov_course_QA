@@ -45,7 +45,7 @@ my_dict = {'junior': 1, 'middle': 2, 'senior': 4}
 all_in = [my_str, my_int, my_flo, my_byte, my_list, my_tup, my_set, my_fro, my_dict]
 
 for i in all_in:
-    print(type(i))
+    print(i, '=', type(i))
 
     # 11) Создать 2 переменные String, создать переменную
     #   в которой суммируете эти переменные. Вывести в консоль.

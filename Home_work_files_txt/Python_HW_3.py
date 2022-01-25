@@ -125,6 +125,8 @@ else:
     # 31.6 Сделать elif с остальными валютами
     # 31.7 Последним оставить else, при выполнений которого в консоль выведется (“Unknow currency”)
 
+    #        При выводе в консоль добавил округение currency_result до сотых
+
 currency_convertor = item_2
 
 if currency_convertor:
@@ -135,24 +137,24 @@ if currency_convertor:
     currency_result = 0
 
     if target_currency == 'eur':
-        currency_result = target_currency_amount * usd_eur_rate
-        print(target_currency_amount, usd_item, '=', currency_result, eur_item)
+        currency_result = target_currency_amount / usd_eur_rate
+        print(target_currency_amount, eur_item, '=', round(currency_result, 2), usd_item)
 
     elif target_currency == 'uah':
-        currency_result = target_currency_amount * usd_uah_rate
-        print(target_currency_amount, usd_item, '=', currency_result, uah_item)
+        currency_result = target_currency_amount / usd_uah_rate
+        print(target_currency_amount, uah_item, '=', round(currency_result, 2), usd_item)
 
     elif target_currency == 'chf':
-        currency_result = target_currency_amount * usd_chf_rate
-        print(target_currency_amount, usd_item, '=', currency_result, chf_item)
+        currency_result = target_currency_amount / usd_chf_rate
+        print(target_currency_amount, chf_item, '=', round(currency_result, 2), usd_item)
 
     elif target_currency == 'rub':
-        currency_result = target_currency_amount * usd_rub_rate
-        print(target_currency_amount, usd_item, '=', currency_result, rub_item)
+        currency_result = target_currency_amount / usd_rub_rate
+        print(target_currency_amount, rub_item, '=', round(currency_result, 2), usd_item)
 
     elif target_currency == 'byn':
-        currency_result = target_currency_amount * usd_byn_rate
-        print(target_currency_amount, usd_item, '=', currency_result, byn_item)
+        currency_result = target_currency_amount / usd_byn_rate
+        print(target_currency_amount, byn_item, '=', round(currency_result, 2), usd_item)
 
     else:
         print('Unknow currency')
