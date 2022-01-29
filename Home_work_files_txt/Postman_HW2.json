@@ -40,10 +40,15 @@
 					"formdata": []
 				},
 				"url": {
-					"raw": "{{url}}/first",
+					"raw": "http://162.55.220.72:5005/first",
+					"protocol": "http",
 					"host": [
-						"{{url}}"
+						"162",
+						"55",
+						"220",
+						"72"
 					],
+					"port": "5005",
 					"path": [
 						"first"
 					]
@@ -70,19 +75,19 @@
 							"",
 							"// Проверить, что name в ответе равно name s request (name вбить руками.)",
 							"",
-							"pm.test(\"Name check\", function() {",
+							"pm.test(\"Name response check\", function() {",
 							"    pm.expect(jsonData.name).to.eql('Alexey')",
 							"});",
 							"",
 							"// Проверить, что age в ответе равно age s request (age вбить руками.)",
 							"",
-							"pm.test(\"Age check\", function() {",
+							"pm.test(\"Age response check\", function() {",
 							"    pm.expect(parseInt(jsonData.age)).to.eql(34)",
 							"});",
 							"",
 							"// Проверить, что salary в ответе равно salary s request (salary вбить руками.)",
 							"",
-							"pm.test(\"Salary check\", function() {",
+							"pm.test(\"Salary response check\", function() {",
 							"    pm.expect(jsonData.salary).to.eql(900)",
 							"});",
 							"",
@@ -148,10 +153,15 @@
 					]
 				},
 				"url": {
-					"raw": "{{url}}/user_info_3",
+					"raw": "http://162.55.220.72:5005/user_info_3",
+					"protocol": "http",
 					"host": [
-						"{{url}}"
+						"162",
+						"55",
+						"220",
+						"72"
 					],
+					"port": "5005",
 					"path": [
 						"user_info_3"
 					]
@@ -242,10 +252,15 @@
 					"formdata": []
 				},
 				"url": {
-					"raw": "{{url}}/object_info_3?name=Alexey&age=34&salary=900",
+					"raw": "http://162.55.220.72:5005/object_info_3?name=Alexey&age=34&salary=900",
+					"protocol": "http",
 					"host": [
-						"{{url}}"
+						"162",
+						"55",
+						"220",
+						"72"
 					],
+					"port": "5005",
 					"path": [
 						"object_info_3"
 					],
@@ -376,10 +391,15 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{url}}/object_info_4?name=Alexey&age=34&salary=900",
+					"raw": "http://162.55.220.72:5005/object_info_4?name=Alexey&age=34&salary=900",
+					"protocol": "http",
 					"host": [
-						"{{url}}"
+						"162",
+						"55",
+						"220",
+						"72"
 					],
+					"port": "5005",
 					"path": [
 						"object_info_4"
 					],
@@ -555,10 +575,15 @@
 					]
 				},
 				"url": {
-					"raw": "{{url}}/user_info_2",
+					"raw": "http://162.55.220.72:5005/user_info_2",
+					"protocol": "http",
 					"host": [
-						"{{url}}"
+						"162",
+						"55",
+						"220",
+						"72"
 					],
+					"port": "5005",
 					"path": [
 						"user_info_2"
 					]
