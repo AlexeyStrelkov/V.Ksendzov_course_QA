@@ -1,4 +1,0 @@
-Name - Alexey.
-Lastname - Strelkov.
-Number of pets - 1.
-Future desired salary - 1000$

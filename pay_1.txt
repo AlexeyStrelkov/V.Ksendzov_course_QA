@@ -1,7 +1,0 @@
-qwer
-1234
-fddv
-556
-QA_check_tests
-autotest_check
-

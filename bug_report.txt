@@ -1,6 +1,0 @@
-1) Summary - Item not added to cart.
-2) Steps to reproduce:
-    step 1 - on the product page go to the product card;
-    step 2 - click the 'add to cart' button.
-3) Expected result - The product is added to the cart on the product description page after selecting the 'Add to Cart' button.
-4) Actual result - Product is not added to cart on the product description page after selecting 'Add to Cart' button.

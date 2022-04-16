@@ -1,8 +1,0 @@
-Skills:
-	- fundamentals of the theory,
-	- HTTP,
-	- JSON,
-	- XML,
-	- API,
-	- Dev Tools,
-	- and more.
